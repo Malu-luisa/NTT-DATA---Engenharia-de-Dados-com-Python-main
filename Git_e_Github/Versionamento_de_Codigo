@@ -1,0 +1,95 @@
+1.O que é Versionamento de código ?
+
+R: Versionamento de código é o processo de gerenciar 
+mudanças no código-fonte ao longo do tempo. 
+Ele permite rastrear, revisar e reverter alterações, 
+facilitando a colaboração entre desenvolvedores. 
+Isso é feito através de commits, branching, 
+merging e tagging, mantendo um histórico das alterações e
+permitindo a volta a versões anteriores se necessário. 
+
+2. O que é git ? 
+
+R:Git é um sistema de controle de versão distribuído 
+que rastreia e gerencia mudanças no código-fonte. 
+Ele permite colaboração, rastreamento de alterações e 
+gerenciamento de diferentes versões do projeto através 
+de commits, branches e merges.
+
+Aqui estão alguns conceitos-chave do Git:
+
+Repositório (Repo): Armazena o código-fonte e o histórico de alterações.
+
+Commit: Um registro das mudanças feitas no código, incluindo uma mensagem descritiva.
+
+Branch: Uma ramificação do código que permite trabalhar em funcionalidades ou correções de forma independente.
+
+Merge: O processo de unir mudanças de diferentes branches.
+
+Clone: Copiar um repositório remoto para sua máquina local.
+
+Push: Enviar commits locais para um repositório remoto.
+
+Pull: Baixar e integrar mudanças do repositório remoto para o repositório local.
+
+3. O que é github?
+
+R: GitHub é uma plataforma que usa o sistema de 
+controle de versão Git para armazenar e gerenciar 
+código-fonte. Ele permite que desenvolvedores trabalhem
+juntos em projetos, rastreiem mudanças, e colaborem usando
+ferramentas como repositórios, branches e pull requests.
+
+Controle de Versão: GitHub usa o Git, um sistema de controle de versão distribuído que rastreia mudanças no código e permite que múltiplos desenvolvedores trabalhem em um projeto simultaneamente sem sobrescrever o trabalho uns dos outros.
+
+Repositórios: Um repositório (ou "repo") é um espaço onde você pode armazenar arquivos de um projeto. Cada repositório pode conter pastas, arquivos e o histórico de alterações.
+
+Branches: Permitem que você trabalhe em diferentes versões de um projeto ao mesmo tempo, facilitando o desenvolvimento de novas funcionalidades ou correções sem afetar o código principal.
+
+Pull Requests: Uma maneira de propor alterações em um projeto. Outros colaboradores podem revisar essas alterações antes que sejam mescladas ao código principal.
+
+Issues: Uma ferramenta para rastrear bugs, tarefas e outras atividades relacionadas ao projeto.
+
+GitHub Actions: Permite a automação de workflows, como a integração contínua e a entrega contínua (CI/CD).
+
+Wiki: Oferece um espaço para documentação do projeto.
+
+Pages: Permite que você crie sites estáticos para projetos ou para o próprio perfil.
+
+3.Criando e Clonando Repositórios
+
+- Criar Repositório no GitHub:
+  No site do GitHub, clique em "New" e siga as instruções para criar um novo repositório.
+
+- Clonar Repositório:
+  git clone <URL-do-repositório>
+
+Salvando Alterações no Repositório Local
+
+- Adicionar Arquivos ao Staging:
+  git add <arquivo>
+  Para adicionar todos os arquivos modificados:
+  git add .
+
+- Commitar Alterações:
+  git commit -m "Mensagem do commit"
+
+Desfazendo Alterações no Repositório Local
+
+- Desfazer Alterações Não Commitadas:
+  git checkout -- <arquivo>
+
+- Desfazer o Último Commit (não enviado):
+  git reset --soft HEAD~1
+
+- Excluir Mudanças no Staging:
+  git reset HEAD <arquivo>
+
+Enviando e Baixando Alterações com o Repositório Remoto
+
+- Enviar Alterações para o Repositório Remoto:
+  git push origin <branch>
+
+- Baixar Alterações do Repositório Remoto:
+  git pull origin <branch
+
