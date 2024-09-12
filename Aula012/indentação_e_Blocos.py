@@ -1,27 +1,23 @@
-#IMPORTANTE: codigos em python sempre tem que ser endentados 
+# IMPORTANTE: Códigos em Python sempre precisam ser indentados corretamente
 
-#Certo
-def sacar(valor):
-    saldo = 500
+# Exemplo correto de indentação
+def sacar(valor):  # Define a função 'sacar' que recebe um parâmetro 'valor'
+    saldo = 500     # Define a variável 'saldo' dentro da função
 
-    if saldo >= valor: 
-        print('valor sacado!')
-        print('Retire seu dinheiro na boca do caixa.')
+    if saldo >= valor:  # Verifica se o saldo é suficiente para o valor desejado
+        print('Valor sacado!')  # Executado se a condição do 'if' for verdadeira
+        print('Retire seu dinheiro na boca do caixa.')  # Executado se a condição do 'if' for verdadeira
     else:
-        print('Não foi possivel sacar')
+        print('Não foi possível sacar')  # Executado se a condição do 'if' for falsa
 
-sacar(100)
+sacar(100)  # Chama a função 'sacar' passando 100 como argumento
 
-#Isso não funciona em python
-#errado
+# Exemplo incorreto de indentação
+# Este código está comentado porque não funciona em Python devido à falta de indentação adequada
 
-#def sacar(self, valor: float) -> None: # Inicio do bloco de método
-#if self.saldo >= valor: #inicio do bloco do if 
-#self.saldo -= valor
+# def sacar(self, valor: float) -> None:  # Início do bloco do método
+# if self.saldo >= valor:  # Início do bloco do 'if'
+# self.saldo -= valor  # Linha de código não indentada corretamente
 
-#fim do bloco do if 
-#fim do bloco do método
-
-
-
-#IMPORTANTE: codigos em python sempre tem que ser endentados 
+# # Fim do bloco do 'if'
+# # Fim do bloco do método
